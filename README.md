@@ -9,7 +9,7 @@ tag or any major shorthands with an existing image.
 
 ```yaml
 - name: Retag to latest
-  uses: ybrin/retag-docker-image@0.1.0
+  uses: koraykoska/retag-docker-image@0.2.4
   with:
     name: my-awesome-docker-image/my-package
     tag: ${{ github.sha }}
